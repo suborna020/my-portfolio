@@ -10,4 +10,3 @@ https://fonts.google.com/specimen/Parisienne?preview.text=Amena%20Akter&preview.
 then Skill Bar:  niche 2nd section a 100% a konta koto % skill seta show hobe
 3.
 font-family: cursive;
-s
