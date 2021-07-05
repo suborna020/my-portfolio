@@ -10,11 +10,4 @@ https://fonts.google.com/specimen/Parisienne?preview.text=Amena%20Akter&preview.
 then Skill Bar:  niche 2nd section a 100% a konta koto % skill seta show hobe
 3.
 font-family: cursive;
-git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
-
-to set your account's default identity.
-Omit --global to set the identity only in this repository.
-
-fatal: no email was given and auto-detection is disabled
-> git config --get-all user.name
+s
