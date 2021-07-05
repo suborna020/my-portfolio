@@ -1,0 +1,64 @@
+<template>
+<div class="container mt-5">
+    <div class="row py-5 transparentBackground">
+        <div class="col-md-8">
+            <div class=" card mx-auto ">
+
+                <div class="card-body pb-0">
+                    <h2 class="card-title d-flex myname">Amena Akter <span class="font-weight-normal font-weight-light"><small> &nbsp; | (Suborna)</small> </span> </h2>
+                    <div class="card-text mb-2" style="text-align: -webkit-center;">
+                        <div class="animateWord">
+                            <div>
+                                <!--        Use classes 2,3, or 4 to match the number of words -->
+                                <ul class="flip4">
+                                    <li> Game lover </li>
+                                    <li> Php Adorer</li>
+                                    <li> Javascript Enthusiast</li>
+                                    <li> FULL-STACK SOFTWARE ENGINEER </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="contactIcon">
+                    <a href="mailto:amzsuborna4@gmail.com" target="_blank"> <i class="fa fa-envelope fa-2x text-danger" aria-hidden="true"></i></a>
+                     <a href="https://www.facebook.com/suborna.ayaath.79" target="_blank"><i class="fab fa-facebook-square fa-2x text-primary"> </i>
+                    </a>
+                    
+                    
+                     <a href="https://www.linkedin.com/in/amena-akter-suborna-61b693146/" target="_blank"><i class="fab fa-linkedin fa-2x text-info"></i></a>
+                     <a href="https://github.com/suborna020" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom" target="_blank"> <i class="fab fa-github-square fa-2x text-white"></i></a>
+                    
+
+                    
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-4">
+            <div class=" card mx-auto ">
+                <div class="about-icon">
+                    <div class="circle-shape"></div>
+                    <img class="card-img-top profilePic mx-auto my-4" src="img/profile1.jpg" alt="Card image">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+</template>
+
+<script>
+// @ is an alias to /src
+import HelloWorld from '@/components/HelloWorld.vue'
+
+export default {
+    name: 'Home',
+    components: {
+        // HelloWorld
+    }
+}
+</script>
