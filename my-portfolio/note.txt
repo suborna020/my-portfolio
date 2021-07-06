@@ -1,0 +1,20 @@
+plan: 
+1.
+#home page/skill page particles design use kore korbo
+#picture 2ta owl slide a use korbo
+#home a my head name font
+https://fonts.google.com/specimen/Parisienne?preview.text=Amena%20Akter&preview.text_type=custom
+#manu toggle icon change koro  
+#active manu item= ul li er niche ekta white line and ekti ghurte thaka gif pic show hobe
+2.skill page er per skil name button er moto hobe, center theke right left direction a move korbe. majkhane ekta black tree er picture thakbay.
+then Skill Bar:  niche 2nd section a 100% a konta koto % skill seta show hobe
+3.
+font-family: cursive;
+your authorized token
+
+vscode://vscode.github-authentication/did-authenticate?windowid=1&code=0ab1c74c3d2f5a756262&state=048c9ca1-2fe5-4d5d-a6ae-eee123117450
+
+Copy the token.
+Switch back to VS code.
+Click Signing in to github.com... in the status bar.
+Paste the token and hit enter.
