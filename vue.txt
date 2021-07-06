@@ -1,0 +1,59 @@
+npm install -g @vue/cli
+vue --version
+
+project :
+@create laravel project then include vue by :
+	npm install
+	composer require laravel/ui
+	php artisan ui vue --auth (without auth hole  : php artisan ui vue)
+	npm install 
+	npm run dev
+	npm run watch
+	npm install vue-router //for url routing
+	npm install axios vue-axios //for data fatch
+	npm install vuex --save  //for the use of one centralized store for all components
+	npm i element-ui -S //for design
+@only vue project
+open cmd: 
+	E:
+	cd 3.AllVueProjects
+	vue create project-name
+	menuallu select(version,babel.router,3.x,Y,dedicated config,N)
+	npm run serve
+	
+
+
+@resourse>js>app.js include 2 line :
+import VueRouter from 'vue-router'
+Vue.use(VueRouter)
+@then follow 
+https://router.vuejs.org/guide/#javascript
+
+@webpack.mix: 
+mix.js('resources/js/admin.js', 'public/js')
+    .vue();
+
+@for project clear :
+php artisan cache:clear
+php artisan route:cache
+php artisan config:cache
+php artisan view:clear
+php artisan clear-compiled
+composer dump-autoload
+php artisan optimize
+php artisan route:cache
+php artisan config:cache
+
+@laravel auth query from 
+E:\3.AllVueProjects\LV-E-Shopping\vendor\laravel\ui\src\AuthRouteMethods.php
+@vue project diploy:
+1.npm run prod (for project production= vue inspect desable korar jonno) 
+2.folder lagbena 
+#node_modules folder
+#resources->js folder
+# .git , .editorconfig, .env.example ,gitattributes ,gitignore,.styleci , webpack.mix.js , readme.md , 
+3.then main file gulo selsect kore zip koro
+4.nijosso database er ekta export file download
+5.cpanel a upload
+@gitgub diploy 
+./deploy.sh

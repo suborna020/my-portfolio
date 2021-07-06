@@ -1,0 +1,46 @@
+@create laravel project then include vue by :
+npm install
+npm install vue
+composer require laravel/ui
+php artisan ui vue --auth (without auth hole  : php artisan ui vue)
+npm install 
+npm run dev
+npm run watch
+npm install vue-router
+
+@resourse>js>app.js include 2 line :
+import VueRouter from 'vue-router'
+Vue.use(VueRouter)
+@then follow 
+https://router.vuejs.org/guide/#javascript
+
+card no
+card exppire date
+pin code/cvc
+<div v-for="cartData in cartDatas.cart.product"  :key="cartData.index" class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="single-product">
+                                    <div class="product-img">
+                                        <div class="pro-type">
+                                            <span>new</span>
+                                        </div>
+                                        <a href="#"><img :src="cartData.image" alt="Product Title" /></a>
+                                        <!-- image load er khetre src property vue er ssathe bind kora must , ete vue refer kore je ai data tuku dinamic ashbay  -->
+                                        <div class="actions-btn">
+                                            <a href="#"><i class="mdi mdi-cart"></i></a>
+                                            <a href="#" class="quickViewModal" data-toggle="modal" data-target="#quick-view"><i class="mdi mdi-eye"></i></a>
+                                            <a href="#"><i class="mdi mdi-heart"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="product-dsc">
+                                        <p><a href="#">{{cartData.name}}</a></p>
+                                        <div class="ratting">
+                                            <i class="mdi mdi-star"></i>
+                                            <i class="mdi mdi-star"></i>
+                                            <i class="mdi mdi-star"></i>
+                                            <i class="mdi mdi-star-half"></i>
+                                            <i class="mdi mdi-star-outline"></i>
+                                        </div>
+                                        <span>${{cartData.price}}</span>
+                                    </div>
+                                </div>
+                            </div>
