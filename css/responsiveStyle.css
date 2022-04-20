@@ -1,0 +1,65 @@
+/* tab  */
+@media (max-width: 992px) {
+  .Home .row {
+    margin-top: 1rem;
+  }
+}
+/* ////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////// */
+/* mobile  */
+@media (max-width: 768px) {
+  .wrapper {
+    width: auto;
+    padding: 0 0.3rem;
+  }
+  .circle-shape {
+    background: linear-gradient(90deg, #080b10 0%, #4b6cb7 100%);
+    width: 269px;
+    height: 248px;
+  }
+  .profilePic {
+    width: 193px !important;
+    height: 193px !important;
+  }
+  .about-icon {
+    margin-top: 25px;
+  }
+
+  .flip4 {
+    padding-left: 0;
+  }
+  .navbar-toggler {
+    background: linear-gradient(90deg, #182848 0%, #4b6cb7 100%);
+  }
+  nav .nav-item {
+    background: linear-gradient(90deg, #182848 0%, #4b6cb7 100%);
+    border-bottom: 3px solid black;
+  }
+  .activeBar {
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar-nav {
+    text-align: initial;
+  }
+  /* projects  */
+  .projects .card {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+  /* .ball {
+        min-height: 5rem;
+        width: 5rem;
+    } */
+  .CollapseHome * {
+    font-size: 0.9rem;
+  }
+
+  .CollapseHome .title {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
